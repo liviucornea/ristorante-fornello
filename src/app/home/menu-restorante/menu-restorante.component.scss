@@ -1,0 +1,24 @@
+:host {
+  display: block;
+  margin-top: 50px;
+}
+
+/deep/ .ui-datatable.menu-table {
+  .ui-datatable-header {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    background-color: #7986CA;
+  }
+}
+/deep/ th {
+  text-align: center;
+  padding: 5px;
+}
+/deep/  .ui-cell-data  {
+   padding-left: 10px;
+ }
+/deep/  .ui-datatable-even  {
+  background-color: lightgray;
+}

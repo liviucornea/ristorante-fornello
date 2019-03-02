@@ -4,7 +4,8 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import {HomeModule} from './home/home.module';
 import {AppRoutingModule} from './app-routing.module';
-import {SharedModuleModule} from './shared-module/shared-module.module';
+import {SharedModule} from './shared-module/shared-module.module';
+import {DataTableModule} from 'primeng/primeng';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import {SharedModuleModule} from './shared-module/shared-module.module';
   imports: [
     BrowserModule,
     HomeModule.forRoot(),
-    SharedModuleModule,
+    DataTableModule,
+    SharedModule,
     AppRoutingModule
   ],
   providers: [],
