@@ -6,11 +6,13 @@ import { MenuRestoranteComponent } from './menu-restorante/menu-restorante.compo
 import {DataTableModule} from 'primeng/primeng';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import {StoreModule} from '@ngrx/store';
 
 @NgModule({
   imports: [
     CommonModule,
     DataTableModule,
+    StoreModule,
     SharedModule,
   ],
   declarations: [HomeComponent, MenuRestoranteComponent, AboutComponent, ContactComponent]
