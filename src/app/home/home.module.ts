@@ -4,6 +4,8 @@ import { HomeComponent } from './home/home.component';
 import {SharedModule} from '../shared-module/shared-module.module';
 import { MenuRestoranteComponent } from './menu-restorante/menu-restorante.component';
 import {DataTableModule} from 'primeng/primeng';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
   imports: [
@@ -11,7 +13,7 @@ import {DataTableModule} from 'primeng/primeng';
     DataTableModule,
     SharedModule,
   ],
-  declarations: [HomeComponent, MenuRestoranteComponent]
+  declarations: [HomeComponent, MenuRestoranteComponent, AboutComponent, ContactComponent]
 })
 export class HomeModule {
   static forRoot(): ModuleWithProviders {

@@ -1,9 +1,9 @@
 <p-dataTable [value]="items" styleClass="menu-table"
  [style]="{'margin-top':'50px'}">
-  <p-header>Ristorante Il Fornello Menu</p-header>
+  <p-header [style]="{'width':'65%'}">Ristorante Il Fornello Menu</p-header>
   <p-column field="name" header="Name" sortable="true" [style]="{'width':'25%'}"></p-column>
   <p-column field="description" header="Description" sortable="true" [style]="{'width':'65%'}"></p-column>
-  <p-column field="price" header="Price" [style]="{'width':'15%'}" sortable="true">
+  <p-column field="price" header="Price" [style]="{'width':'10%'}" sortable="true">
     <ng-template let-col let-item="rowData" pTemplate="body">
       <span>{{item[col.field] | currency:'USD':true:'.0-0'}}</span>
     </ng-template>

@@ -5,10 +5,12 @@ import { FooterComponent } from './footer/footer.component';
 import {CardListComponent} from './card-list/card-list.component';
 import {CardContentDirective, CardDirective} from './card-list/card.component';
 import { PresentationComponent } from './presentation/presentation.component';
+import {RouterModule} from '@angular/router';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule,
   ],
   declarations: [HeaderComponent, FooterComponent, CardContentDirective, CardDirective,
     CardListComponent,
