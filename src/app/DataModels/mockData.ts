@@ -2,18 +2,18 @@ export   const restoranteMenuItems = [
   {
     code: 'sw1', category: 'Sandwiches', name: 'Beef Sandwich',
     description: 'Beef Sandwich  desc with all delicious details here',
-    price: 50
+    price: 50.85
   },
   {
     code: 'sw2', category: 'Sandwiches', name: 'Pork Kaiser',
     description: 'Pork Kaiser description with all delicious details here',
-    price: 18
+    price: 18.99
 
   },
   {
     code: 'sw3', category: 'Sandwiches', name: 'Chicken Club Kaiser',
     description: 'description with all delicious details here',
-    price: 26
+    price: 26.75
   },
 
   {

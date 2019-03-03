@@ -5,7 +5,7 @@
   <p-column field="description" header="Description" sortable="true" [style]="{'width':'65%'}"></p-column>
   <p-column field="price" header="Price" [style]="{'width':'10%'}" sortable="true">
     <ng-template let-col let-item="rowData" pTemplate="body">
-      <span>{{item[col.field] | currency:'USD':true:'.0-0'}}</span>
+      <span>{{item[col.field] | currency: 'USD' }}</span>
     </ng-template>
   </p-column>
 </p-dataTable>
